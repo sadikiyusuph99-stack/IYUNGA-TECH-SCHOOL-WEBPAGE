@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IYUNGA TECHNICAL SECONDARY SCHOOL</title>
+    <link rel="stylesheet" href="CSS/intro.css">
+</head>
+<body>
+    <h1><p class="ministry-info"><b>The United Republic Of Tanzania<br>
+Ministry of Education, Science and Technology</b></p>
+    IYUNGA TECHNICAL SECONDARY SCHOOL<br><p class="school-mission">Build skills, knowledge and character for a better future</p></h1>
+    <img class="school-logo" src="yusuph.jpg" alt="The image shows iyunga sec school" height="80" width="80">
+    <nav class="navbar">
+        <ul>
+            <li class="nav-linkz"><a style="text-decoration: none; color: white;" href="Iyunga_secondary.html">Home</a></li>
+            <li class="nav-linko"><a style="text-decoration: none; color: white;" href="joining_instruction.html">Joining Instruction</a></li>
+        </ul>
+    </nav>
+    <h2 class="text-animated">WELCOME TO IYUNGA TECHNICAL SECONDARY SCHOOL</h2>
+    <div class="slider-container">
+        <div class="picture-slide">
+            <img src="iyunga.jpg.jpg" height="150">
+        </div>
+        <div class="picture-slide">
+            <img src="pic1.jpg.jpg">
+        </div>
+        <div class="picture-slide">
+            <img src="pic2.jpg.jpg">
+        </div>
+        <div class="picture-slide">
+            <img src="pic3.jpg.jpg" height="200">
+        </div>
+        <div class="picture-slide">
+            <img src="new.jpeg" height="500">
+        </div>
+    </div>
+    <img class="yunga" src="iyunga.jpg.jpg" alt="The image shows iyunga sec school" height="80" width="80">
+    <main>
+        <strong style="text-decoration: underline;font: size 20px;">IYUNGA TECHNICAL SECONDARY SCHOOL</strong>
+       <P> ACSEE/CSEE Results,Selection,Joining Instruction -MBEYA CC,MBEYA</P>
+       <pre>        centre Number         s0112
+        Registration Number   s.63
+        Registered            1963
+        Ownership             Government
+       </pre>
+       <p>IYUNGA TECHNICAL SECONDARY SCHOOL is the Government school with registration number S63.<br>Also Iyunga Tech ss is the examination center with registration of CENTER NUMBER S0112. School is found at UTULIVU street in IWAMBI village,MBEYA MULNICIPAL in MBEYA REGION. </p>
+       <p>Iyunga Tech ss is the single sex school consist of boys only for form I-VI</p>
+       <P><strong style="text-decoration: underline;">ACCADEMIC INFORMATION</strong></P>
+       <P>Iyunga Tech ss in each accademic year it performs well in the national examinations.<br>The following is the list of accademic results for accademic year 2025-2026:</P>
+         <div class="results">
+            <div class="result1">ACSEE(ACSEE(form six))2026:<br>GPA 2.6204,<br>perfomance 100%</div>
+            <div class="result2">CSEE(CSEE(form four))2025:<br>GPA 1.8479,<br>perfomance 100%</div>
+            <div class="result3">FTNA(FTNA(form two))2025:<br>GPA 2.3794,<br>perfomance 100%</div>
+         </div>
+        <p>In the year 2025-2026 Iyunga Tech ss has performed well in the national examinations with 100% pass rate in all levels of examinations.</p>
+        <p>For form I-IV the subject offerred are:</p>
+        <div class="subjects"> 
+            <ol class="subject-list1">
+                <li>Mathematics</li>
+                <li>English</li>
+                <li>Kiswahili</li>
+                <li>Physics</li>
+                <li>Chemistry</li>
+                <li>Biology</li>
+                <li>Geography</li>
+                <li>History</li>
+                <li>Civic Education</li>
+                <li>Engineering studies</li>
+                <li>Business Studies</li>
+            </ol>
+            <p>Technical studies offered include:</p>
+            <ul class="subject-list2">
+                <li>Electrical Technology</li>
+                <li>Mechanical Technology</li>
+                <li>Building and Construction Technology</li>
+                <li>Automotive Technology</li>
+                <li>Masonry and Bricklaying</li>
+                <li>Welding and Fabrication</li>
+                <li>Plumbing and Pipefitting</li>
+                <li>Woodworking and Carpentry</li>
+                <li>Metalworking and Machining</li>
+            </ul>
+        </div>
+        <p>For form V-VI the combination offered are:</p>
+           <ul>
+            <li>Combination 1: Physics,Chemistry,Advanced Mathematics(PCM)</li>
+            <li>Combination 2: Physics,Chemistry,Biology(PCB)</li>
+            <li>Combination 3: Physics,Computer Studies,Advanced Mathematics(PMC)</li>
+           </ul>
+        <P>Other Information</P>
+        <P>Our school consist of the students with special needs.And it ensure quality education for all students.</P>
+        <p>For those who wants to join our school, please fill out the application form available on our website.or click the link at the top to get the Joining Instruction.</p>
+    </main>
+    <script>
+        let pictureIndex = 0;
+        function changepicture(){
+
+            let slides = document.getElementsByClassName("picture-slide");
+            for (let i = 0; i < slides.length; i++){
+                slides[i].style.display = "none";
+            }
+            pictureIndex++
+            if (pictureIndex > slides.length){
+                pictureIndex = 1;
+            }
+            if (slides[pictureIndex - 1] !== undefined){
+                slides[pictureIndex - 1].style.display = "block";
+            }
+            setTimeout(changepicture, 2000);
+        }
+        changepicture();
+
+        window.addEventListener('DOMContentLoaded', function(){
+
+            let button = document.getElementById("pointer-up");
+            window.onscroll = function(){
+                let distance = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+                if (distance > 300){
+                    button.style.display = "block";
+                }else{
+                    button.style.display = "none";
+                }
+            };
+            button.addEventListener("click", function(){
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <footer>
+        <div>
+            <p>Contact Information:</p>
+            <p>Address: UTULIVU street, IWAMBI village, MBEYA MUNICIPAL, MBEYA REGION</p>
+            <p>Email: iyungatech@gmail.com</p>
+            <p>Phone: +255 123 456 789</p>
+        </div>
+        <p>&copy; 2026 IYUNGA TECHNICAL SECONDARY SCHOOL. All rights reserved.</p>
+    </footer>
+    <button id="pointer-up" title="move to top">👆</button>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joining Instruction</title>
+    <link rel="stylesheet" href="CSS/join.css">
+</head>
+<body>
+    <h1>Iyunga Tech Secondary School - Joining Instruction</h1>
+    <p><em>WELCOME TO IYUNGA TECHNICAL SECONDARY SCHOOL!</em></p>
+    <p>Please follow the instructions below to join our school:</p>
+    <ul>
+        <li>Fill out the application form available on our website.</li>
+        <li>Submit the completed application form along with the required documents.</li>
+        <li>Attend the selection process if you are shortlisted.</li>
+        <li>Complete the registration process once you are accepted.</li>
+    </ul>
+    <form action="submit_form.php" method="post">
+        <p>Enter the student full name:</p>
+        <input type="text" placeholder="Full Name" required>
+        <p>Student date of birth</p>
+        <input type="date" placeholder="Date of Birth" required>
+        <p>Student Nationality</p>
+        <input type="text" placeholder="Nationality" required>
+        <p>Student Gender</p>
+        <select required>
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+        </select>
+        <p>Parent/Guardian Name</p>
+        <input type="text" placeholder="Parent/Guardian Name" required>
+        <p>Parent/Guardian Contact Number</p>
+        <input type="tel" placeholder="Contact Number" required>
+        <p>Parent/Guardian job</p>
+        <input type="text" placeholder="Parent/Guardian Job" required>
+        <p>Location where you live</p>
+        <input type="text" placeholder="Location" required>
+        <p>Parents live together or they are separated?</p>
+        <select required>
+            <option value="together">Together</option>
+            <option value="separated">Separated</option>
+        </select>
+        
+        <p>Thank you for your interest in our school!</p>
+        <p>Review the information filled out before submitting.</p>
+        <p>Terms and Conditions.</p>
+        <p>In our school, we strive to provide a supportive environment for all students.<br>Students are encouraged to participate in various activities and programs that promote their academic and personal growth.<br>For those student who will misbehave, please refer to the student handbook for disciplinary procedures.</p>
+        <input type="radio" name="agree" value="agree" required> I agree to the terms and conditions.<br>
+        <input type="radio" name="agree" value="disagree" required> I do not agree to the terms and conditions.
+        <p>By submitting this form, you acknowledge that the information provided is accurate and complete to the best of your knowledge.<br>Any false information may result in disqualification from the application process.</p>
+        <p>We look forward to welcoming you to our school community!</p>
+        <button type="submit" value="Submit">Submit</button>
+    </form>
+</body>
+</html>

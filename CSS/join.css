@@ -1,0 +1,37 @@
+*{
+    background-color: papayawhip;
+    margin-left: 5px;
+}
+h1{
+    margin-top: 0%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+button{
+    float: right;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.disorder a{
+    text-decoration: none;
+    cursor:cell;
+    color: red
+}
+.disorder a:hover{
+    color: blue;
+}
+.disorder a:active{
+    color: green;
+}
+.disorder a:visited{
+    color: purple;
+}
