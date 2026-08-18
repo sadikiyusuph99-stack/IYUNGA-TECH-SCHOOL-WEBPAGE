@@ -17,30 +17,35 @@
         <li>Complete the registration process once you are accepted.</li>
     </ul>
     <form action="submit_form.php" method="post">
-        <p>Enter the student full name:</p>
-        <input type="text" placeholder="Full Name" required>
-        <p>Student date of birth</p>
-        <input type="date" placeholder="Date of Birth" required>
-        <p>Student Nationality</p>
-        <input type="text" placeholder="Nationality" required>
-        <p>Student Gender</p>
+        <label>Enter the student full name:</label><br>
+        <input type="text" placeholder="Full Name" required><br><br>
+        <label>Student date of birth</label><br>
+        <input type="date" placeholder="Date of Birth" required><br><br>
+        <label>Student Nationality</label><br>
+        <input type="text" placeholder="Nationality" required><br><br>
+        <label>Student Gender</label><br>
         <select required>
             <option value="M">Male</option>
             <option value="F">Female</option>
-        </select>
-        <p>Parent/Guardian Name</p>
-        <input type="text" placeholder="Parent/Guardian Name" required>
-        <p>Parent/Guardian Contact Number</p>
-        <input type="tel" placeholder="Contact Number" required>
-        <p>Parent/Guardian job</p>
-        <input type="text" placeholder="Parent/Guardian Job" required>
-        <p>Location where you live</p>
-        <input type="text" placeholder="Location" required>
-        <p>Parents live together or they are separated?</p>
+        </select><br><br>
+        <label>Parent/Guardian Name</label><br>
+        <input type="text" placeholder="Parent/Guardian Name" required><br><br>
+        <label>Parent/Guardian Contact Number</label><br>
+        <input type="number" placeholder="Contact Number" required><br><br>
+        <label>Parent/Guardian job</label><br>
+        <input type="text" placeholder="Parent/Guardian Job" required><br><br>
+        <label>Location where you live</label><br>
+        <input type="text" placeholder="Location" required><br><br>
+        <label>Parents live together or they are separated?</label><br>
         <select required>
             <option value="together">Together</option>
             <option value="separated">Separated</option>
-        </select>
+        </select><br><br>
+        <p><strong>NOTE:</strong><br>This part is to be filled with those who have disorder or health problems with official stamp</p>
+        <label>Enter type of disorder/serious health problem</label><br>
+        <input style="width: 200px;" type="text" placeholder="Enter your disorder/health problem"><br><br>
+        <label>Enter Disorder or Disease description</label><br>
+        <input style="width:500px;height:150px;text-align:center;font: size 200px;" type="text" placeholder="Disorder description">
         
         <p>Thank you for your interest in our school!</p>
         <p>Review the information filled out before submitting.</p>
