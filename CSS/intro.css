@@ -156,9 +156,3 @@ a{
     text-transform: uppercase;
     font-weight: 900;
 }
-*{
-    display: grid;
-  /* Inajirekebisha yenyewe kuenea kwenye skrini bila kupishana */
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
